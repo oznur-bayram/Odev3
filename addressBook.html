@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adres Defteri</title>
+    <link rel="stylesheet" href="addressbook.css">
+    <script type="text/javascript" src="addressbook.js"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Adres Defteri</h1>
+        </div>
+        <div class="quickadd"><button id="QuickAdd">+ Ekle</button></div>
+        <div class="quickaddForm">
+            <label for="fullname">İsim</label><input type="text" id="fullname" class="formFields">
+            <label for="phone">Telefon</label><input type="text" id="phone" class="formFields">
+            <label for="address">Adres</label><textarea name="address" id="address" cols="30" rows="10" class="formFields"></textarea>
+            <label for="city">Şehir</label><input type="text" id="city" class="formFields">
+            <label for="email">E-Mail</label><input type="text" id="email" class="formFields">
+            <br><br>
+            <button id="Add">Şimdi Ekle</button><button id="Cancel">İptal Et</button>
+        </div>
+        <div class="addbook">
+            <div class="entry">
+                <div class="name"><p>Öznur Bayramr</p></div>
+                <div class="email"><p>sachin@gmail.com</p></div>
+                <div class="phone"><p>9316523541</p></div>
+                <div class="address"><p>Malazgirt mah. no  69</p></div>
+                <div class="city"><p>Muş</p></div>
+                <div class="del"><a href="#">Sil</a></div>
+            </div> 
+            
+        </div>
+    </div>
+</body>
+</html>
